@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title:            Commons Logging
-locale:           ko_KR
+locale:           en_US
 url:              http://chomman.github.io/blog
 
 
