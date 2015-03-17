@@ -10,8 +10,8 @@ modified: {}
 comments: true
 image: 
   feature: "pictures/again.jpg"
-  credit: WeGraphics
-  creditlink: "http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/"
+  credit: 정태현
+  creditlink: "http://chomman.github.io/blog"
 published: true
 ---
 
