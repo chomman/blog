@@ -27,4 +27,5 @@ format: video
 
 좀 더 자세한 내용은 <a href="http://projects.spring.io/spring-social/" target="_blank">Spring Social 홈페이지</a>에서 찾아볼 수 있을 것이다.
 
+
 Spring Social을 소개하는 동영상이 있어 포스트를 남긴다.
