@@ -21,7 +21,6 @@ Spring Security 를 사용하다 보면 현재 세션 사용자의 정보를 알
 Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 System.out.println(authentication.getName());
 {% endhighlight %}
-&nbsp;
 
 ### 2. Controller 의 경우 메서드 인자로 받는 방법
 
