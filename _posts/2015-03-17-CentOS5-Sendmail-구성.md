@@ -24,7 +24,7 @@ sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또�
     {% endraw %}   
     ↓
     {% raw %}
-    \#O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
+    \\#O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
     {% endraw %}
 
 ### sendmail.mc 변경
