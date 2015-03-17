@@ -3,18 +3,20 @@ published: true
 layout: post
 ---
 
-###1. Sendmail 패키지 설치
+
+
+##1. Sendmail 패키지 설치
 
     {% raw %}
 	yum install -y sendmail sendmail-cf
     {% endraw %}
 
-###2. Sendmail 설정
+##2. Sendmail 설정
 
-- sendmail.cf 변경
+### sendmail.cf 변경
+
 sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또는 삭제
 550 5.1.1 User unknown 에러가 나는 원인이 되기 때문
-
 
 {% raw %}
 vi /etc/mail/sendmail.cf
@@ -25,10 +27,10 @@ O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
 {% endraw %}
 
 {% raw %}
-#O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
+\#O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
 {% endraw %}
 
-- sendmail.mc 변경
+### sendmail.mc 변경
 
 {% raw %}
 vi /etc/mail/sendmail.mc
@@ -77,7 +79,7 @@ LOCAL_DOMAIN(`실제 발송 도메인’)dnl
 Sendmail 버전 숨기기
 
 {% raw %}
-#define(`confSMTP_LOGIN_MSG’, `$j Sendmail; $b’)dnl
+\#define(`confSMTP_LOGIN_MSG’, `$j Sendmail; $b’)dnl
 {% endraw %}   
 
 {% raw %}
@@ -90,7 +92,7 @@ define(`confSMTP_LOGIN_MSG’ )dnl
 m4 sendmail.mc > sendmail.cf
 {% endraw %}
 
-###3. Sendmail 서비스 활성화 및 시작
+##3. Sendmail 서비스 활성화 및 시작
 
     {% raw %}
     chkconfig sendmail on
@@ -103,7 +105,7 @@ m4 sendmail.mc > sendmail.cf
     tcp 0 0 0.0.0.0:25 0.0.0.0:* LISTEN 19466/sendmail
     {% endraw %}
 
-###4. 접속 테스트
+##4. 접속 테스트
 
     {% raw %}
     telnet localhost 25
