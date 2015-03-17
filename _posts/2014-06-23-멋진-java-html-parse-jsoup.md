@@ -45,7 +45,6 @@ public class NaverNewsParser {
 		for (Element element : elements) {
 			System.out.println(element.text());
 		}
-		
 	}
 }
 {% endhighlight %}
