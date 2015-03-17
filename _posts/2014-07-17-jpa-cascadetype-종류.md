@@ -1,16 +1,6 @@
 ---
-id: 1406
 title: JPA CascadeType 종류
-author: 정태현
 layout: post
-guid: http://monggu.com/?p=1406
-permalink: /jpa-cascadetype-%ec%a2%85%eb%a5%98/
-exclude:
-  - 
-url:
-  - 
-hdimage:
-  - 
 slide_template:
   - default
 custom_sidebar:
