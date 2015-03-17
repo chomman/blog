@@ -3,8 +3,6 @@ published: true
 layout: post
 ---
 
-
-
 ##1. Sendmail 패키지 설치
 
     {% raw %}
@@ -20,12 +18,11 @@ sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또�
 
     {% raw %}
     vi /etc/mail/sendmail.cf
-    {% endraw %}
-  
+    {% endraw %} 
     {% raw %}
     O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
-    {% endraw %}
-    
+    {% endraw %}   
+    ↓
     {% raw %}
     \#O DaemonPortOptions=Port=smtp,Addr=127.0.0.1, Name=MTA
     {% endraw %}
@@ -34,12 +31,11 @@ sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또�
 
     {% raw %}
     vi /etc/mail/sendmail.mc
-    {% endraw %}
-    
+    {% endraw %}    
     {% raw %}
     DAEMON_OPTIONS(`Port=smtp,Addr=127.0.0.1, Name=MTA')
-    {% endraw %}
-    
+    {% endraw %}    
+    ↓
     {% raw %}
     dnl DAEMON_OPTIONS(`Port=smtp,Addr=127.0.0.1, Name=MTA')
     {% endraw %}
@@ -50,7 +46,7 @@ sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또�
     dnl TRUST_AUTH_MECH(`EXTERNAL DIGEST-MD5 CRAM-MD5 LOGIN PLAIN’)dnl
     dnl define(`confAUTH_MECHANISMS’, `EXTERNAL GSSAPI DIGEST-MD5 CRAM-MD5 ...
     {% endraw %}
-  
+    ↓
     {% raw %}
     TRUST_AUTH_MECH(`EXTERNAL DIGEST-MD5 CRAM-MD5 LOGIN PLAIN’)dnl
     define(`confAUTH_MECHANISMS’, `EXTERNAL GSSAPI DIGEST-MD5 CRAM-MD5 ...
@@ -61,7 +57,7 @@ sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또�
     {% raw %}
     DAEMON_OPTIONS(`Port=smtp, Addr=127.0.0.1, Name=MTA’)dnl
     {% endraw %}
-    
+    ↓
     {% raw %}
     DAEMON_OPTIONS(`Port=smtp, Name=MTA’)dnl
     {% endraw %}
@@ -71,7 +67,7 @@ sendmail.cf 파일에서 원격연결 설정을 수정한다. 주석처리 또�
     {% raw %}
     LOCAL_DOMAIN(`localhost.localdomain’)dnl
     {% endraw %}
-    
+    ↓
     {% raw %}
     LOCAL_DOMAIN(`실제 발송 도메인’)dnl
     {% endraw %}
@@ -81,7 +77,7 @@ Sendmail 버전 숨기기
     {% raw %}
     \#define(`confSMTP_LOGIN_MSG’, `$j Sendmail; $b’)dnl
     {% endraw %}   
-    
+    ↓
     {% raw %}
     define(`confSMTP_LOGIN_MSG’ )dnl
     {% endraw %}
