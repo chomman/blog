@@ -1,23 +1,23 @@
 ---
 title: Enter Pyongyang
 layout: post
-exclude:
-  - 
-url:
-  - 
-hdimage:
-  - 
-slide_template:
+exclude: 
+  - null
+url: 
+  - null
+hdimage: 
+  - null
+slide_template: 
   - default
-custom_sidebar:
+custom_sidebar: 
   - Default
-post_video_type:
+post_video_type: 
   - vimeo
-post_video_url:
+post_video_url: 
   - 102051605
-categories:
+categories: 
   - 미분류
-tags:
+tags: 
   - 5.24
   - enter pyongyang
   - 고화질
@@ -27,9 +27,12 @@ tags:
   - 영상
   - 평양
 format: video
+published: true
 ---
+
 <iframe src="https://player.vimeo.com/video/102051605" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<p>
 북한 고화질 영상이 화제다.
 도시 브랜드 전문가 제이티 씽과 영상제작자 롭 휘트워스가 제작한 영상이 유튜브에 나타났다.
 영국 일간 가디언을 비롯한 국내외 언론사들이 대단한 것처럼 보도하고 있지만 영상은 평양의 일상생활인 만큼 특별한 것이 없다.
@@ -44,3 +47,4 @@ format: video
 통일은 대박이라는 말에 진정성이 있다면,
 한반도 평화와 통일을 진실로 원한다면,
 남북관계개선을 위한 절호의 기회를 놓치지 말아야 할 것이다.
+</p>
