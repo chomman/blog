@@ -20,7 +20,7 @@ Java 개발자라면 <a href="http://logging.apache.org/log4j/1.2/" target="_bla
 
 &nbsp;
 
-- 1. 메이븐 프로젝트 생성하기
+### 1. 메이븐 프로젝트 생성하기
 
 이클립스와 함께 메이븐 플러그인을 사용한다면
 
@@ -34,7 +34,7 @@ mvn archetype:generate -DgroupId=your.domain java -DartifactId=YourProject
 {% endhighlight %}
 
 
-- 2. pom.xml 파일에 log4j 라이브러리 추가하기
+### 2. pom.xml 파일에 log4j 라이브러리 추가하기
 
 {% highlight xml %}
 <dependency>
@@ -45,7 +45,7 @@ mvn archetype:generate -DgroupId=your.domain java -DartifactId=YourProject
 {% endhighlight %}
 
 
-- 3. BasicConfigurator 를 이용해 Hello World 찍기
+### 3. BasicConfigurator 를 이용해 Hello World 찍기
 
 {% highlight java %}
 package com.haeny.tutorial.log4j;
