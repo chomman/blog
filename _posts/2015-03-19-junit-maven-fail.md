@@ -1,6 +1,7 @@
 ---
 title: 이클립스에서 성공한 테스트 케이스가 메이븐 빌드 시 실패한다면
 layout: post
+comments: true
 categories:
   - Java
   - Tool
