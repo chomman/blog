@@ -16,7 +16,7 @@ tags:
   - spring io platform
   - spring io 플랫폼
 ---
-Spring IO Platform 1.0.0 이 릴리즈되었다는 소식이 들려옵니다.
+Spring IO Platform 1.0.0 이 릴리즈되었다는 소식이 들려온다.
 
 <a href="http://spring.io/platform" target="_blank">http://spring.io/platform</a>  
 Spring IO 플랫폼의 홈페이지로 도표와 함께 소개가 되어 있다.  
@@ -61,7 +61,10 @@ Spring IO 플랫폼을 사용하기 위한 레퍼런스 페이지로 Maven과 Gr
 스프링 블로그 포스트에서 소개하는 소스 코드를 따라 코딩해 보았다.  
 <a href="https://spring.io/blog/2014/06/26/introducing-the-spring-io-platform" target="_blank">https://spring.io/blog/2014/06/26/introducing-the-spring-io-platform</a>
 
-잘 돌아간다. <a href="https://github.com/chomman/tutorials/tree/master/spring-io-platform-tutorial/spring-io-platform-hello" target="_blank">Github</a>에도 올려놓았습니다.
+잘 돌아간다. <a href="https://github.com/chomman/tutorials/tree/master/spring-io-platform-tutorial/spring-io-platform-hello" target="_blank">Github</a>에도 올려둔다.
+
+
+####Tutorial
 
 **pom.xml**
 

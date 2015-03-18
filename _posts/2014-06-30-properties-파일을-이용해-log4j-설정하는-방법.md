@@ -39,7 +39,7 @@ log4j를 설정하는 방법은 일반적으로 두가지인데 xml 파일을 �
 log4j는 크게 3가지 요소로 구성되며 그 구조는 다음과 같습니다.
 
 1. Logger Category : 로깅 메세지를 Appender에 전달한다.  
-2. Appender : 전달된 로깅 메세지를 어떠한 output으로 내보낼지 설정합니다. 예를 들어 파일에 출력할 것인지 콘솔로 출력할 것인지를 결정한다.  
+2. Appender : 전달된 로깅 메세지를 어떠한 output으로 내보낼지 설정한다. 예를 들어 파일에 출력할 것인지 콘솔로 출력할 것인지를 결정한다.  
 3. Layout : 로깅을 출력할 때 어떠한 문자형식으로 출력할지 설정한다.
 
 예시를 보자.
@@ -92,7 +92,7 @@ public class PropertiesSettingTest {
 {% endhighlight %}
 
 
-test.log 파일이 생성되고 로그가 찍혀있는 것을 볼 수 있습니다.
+test.log 파일이 생성되고 로그가 찍혀있는 것을 볼 수 있다.
 
 {% highlight text %}
 2014-06-30 10:45:34,863 DEBUG [main] log4j.PropertiesSettingTest (PropertiesSettingTest.java:10) - Log4j Propertiest configuration success.</pre>
