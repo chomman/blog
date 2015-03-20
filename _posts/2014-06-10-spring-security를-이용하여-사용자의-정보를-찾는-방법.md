@@ -11,7 +11,7 @@ tags:
   - user
   - 사용자
 ---
-Spring Security 를 사용하다 보면 현재 세션 사용자의 정보를 알아야 하는 경우가 발생한다.  
+`Spring Security`를 사용하다 보면 현재 세션 사용자의 정보를 알아야 하는 경우가 발생한다.  
 그런 경우 다음 방법을 사용할 수 있다.
 
 
@@ -40,4 +40,4 @@ System.out.println(user.getUsername());
 {% endhighlight %}
 
 &nbsp;  
-이때 User 클래스는 org.springframework.security.core.userdetails.User 이다.
+이때 `User` 클래스는 `org.springframework.security.core.userdetails.User`이다.
