@@ -1,22 +1,6 @@
 ---
-id: 1422
 title: '/bin/sh^M: bad interpreter: No such file or directory 오류 발생 시'
-author: 정태현
 layout: post
-guid: http://monggu.com/?p=1422
-permalink: /binshm-bad-interpreter-no-such-file-or-directory-%ec%98%a4%eb%a5%98-%eb%b0%9c%ec%83%9d-%ec%8b%9c/
-exclude:
-  - 
-url:
-  - 
-hdimage:
-  - 
-slide_template:
-  - default
-custom_sidebar:
-  - Default
-post_video_type:
-  - youtube
 categories:
   - Linux
 ---
@@ -30,12 +14,3 @@ linux 에서 스크립트 실행할 때
 vi -b
 
 vi 의 바이너리 모드로 들어가면 ^M 이라는 문자가 보인다. 이것을 지워주면 된다.
-
-
-
-<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) - Code Inserter module -->
-
-  
-  
-<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4058194403762977" data-ad-slot="4726363844"></ins>  
-<!-- /SEO Ultimate -->

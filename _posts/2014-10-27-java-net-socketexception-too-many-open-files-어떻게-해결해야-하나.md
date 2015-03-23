@@ -1,22 +1,6 @@
 ---
-id: 1435
 title: 'java.net.SocketException: Too many open files 어떻게 해결해야 하나'
-author: 정태현
 layout: post
-guid: http://monggu.com/?p=1435
-permalink: /java-net-socketexception-too-many-open-files-%ec%96%b4%eb%96%bb%ea%b2%8c-%ed%95%b4%ea%b2%b0%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98/
-exclude:
-  - 
-url:
-  - 
-hdimage:
-  - 
-slide_template:
-  - default
-custom_sidebar:
-  - Default
-post_video_type:
-  - youtube
 categories:
   - Linux
   - WEB
@@ -76,12 +60,3 @@ $ lsof -p 1234,1236 |wc -l
 6144(hard limit) 로 제한한다면 /etc/security/limits.conf에 다음 줄을 추가해주면 로긴시 적용된다.  
 truefeel soft nofile 4096  
 truefeel hard nofile 6144
-
-
-
-<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) - Code Inserter module -->
-
-  
-  
-<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4058194403762977" data-ad-slot="4726363844"></ins>  
-<!-- /SEO Ultimate -->

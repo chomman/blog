@@ -1,22 +1,6 @@
 ---
-id: 1419
 title: Mysql Function 관련 명령어
-author: 정태현
 layout: post
-guid: http://monggu.com/?p=1419
-permalink: /mysql-function-%ea%b4%80%eb%a0%a8-%eb%aa%85%eb%a0%b9%ec%96%b4/
-exclude:
-  - 
-url:
-  - 
-hdimage:
-  - 
-slide_template:
-  - default
-custom_sidebar:
-  - Default
-post_video_type:
-  - youtube
 categories:
   - DB
   - Programming
@@ -83,12 +67,3 @@ mysqldump &#8211;routines &#8211;no-create-info &#8211;no-data &#8211;no-create-
 복원
 
 mysql <database> < outputfile.sql
-
-
-
-<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) - Code Inserter module -->
-
-  
-  
-<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4058194403762977" data-ad-slot="4726363844"></ins>  
-<!-- /SEO Ultimate -->

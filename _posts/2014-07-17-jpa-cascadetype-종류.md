@@ -1,22 +1,6 @@
 ---
-id: 1406
 title: JPA CascadeType 종류
-author: 정태현
 layout: post
-guid: http://monggu.com/?p=1406
-permalink: /jpa-cascadetype-%ec%a2%85%eb%a5%98/
-exclude:
-  - 
-url:
-  - 
-hdimage:
-  - 
-slide_template:
-  - default
-custom_sidebar:
-  - Default
-post_video_type:
-  - youtube
 categories:
   - Java
   - JPA
@@ -43,12 +27,3 @@ CascadeType의 종류에는 다음과 같은 것들이 있다.
   * CascadeType.REMOVE &#8211; 삭제 시 연관된 엔티티도 같이 삭제됨
   * CascadeType.DETACH &#8211; 부모 엔티티가 detach()를 수행하게 되면, 연관된 엔티티도 detach() 상태가 되어 변경사항이 반영되지 않는다.
   * CascadeType.ALL &#8211; 모든 Cascade 적용
-
-
-
-<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) - Code Inserter module -->
-
-  
-  
-<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4058194403762977" data-ad-slot="4726363844"></ins>  
-<!-- /SEO Ultimate -->
