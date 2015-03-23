@@ -10,7 +10,7 @@ modified: {}
 comments: true
 image: 
   feature: "pictures/again.jpg"
-  credit: 정태현
+  credit: Taehyun Jung
   creditlink: "http://chomman.github.io/blog"
 published: true
 ---
