@@ -19,12 +19,11 @@ published: true
 
 ## 좋아하는 것들:
 
-* Spring framework
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+* 낡은 필름 카메라
+* 윌리엄 터너의 수채화, 뱅시의 낙서, 일본의 우키노에
+* 따뜻한 멸치국수
+* 새로운 만남과 수다, 토론
+* 성주풀이와 진주난봉가, 정태춘, 케이티 김
+* 코드로 도시문제를 해결하는 [코드포서울](http://codeforseoul.org/)
+* 화목한 가정
+* 평화와 통일
