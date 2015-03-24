@@ -11,7 +11,6 @@ tags:
   - debian
   - openjdk
   - rasbian
-published: true
 ---
 
 `Raspberry Pi`에 `Rasbian`을 설치하면 이미 `java`가 설치되어 잇다. `Debian` 계열 리눅스 운영체제에는 기본적으로 `OpenJDK`가 깔려있다. 
@@ -52,7 +51,7 @@ $ sudo update-alternatives --config java
 There are 2 choices for the alternative java (providing /usr/bin/java).
  
   Selection    Path                                            Priority   Status
-------------------------------------------------------------
+
 * 0            /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java   1061      auto mode
   1            /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java   1061      manual mode
   2            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java   1051      manual mode
