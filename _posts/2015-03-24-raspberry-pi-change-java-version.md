@@ -18,7 +18,7 @@ tags:
 자바를 설치만 한다고 해서 바뀌지 않는다.
 [alternative path](http://www.debian-administration.org/article/91/Using_the_Debian_alternatives_system)를 변경하는 방법을 알아보자.
 
-{% highlight ssh %}
+{% highlight erl %}
 $java -version
 java version "1.6.0_31"
 OpenJDK Runtime Environment (IcedTea6 1.13.3) (6b31-1.13.3-1~deb7u1)
@@ -27,7 +27,7 @@ OpenJDK 64-Bit Server VM (build 23.25-b01, mixed mode)
 
 자바 설치 경로를 살펴보면 다음과 같다.
 
-{% highlight ssh %}
+{% highlight erl %}
 $ ls -lsa /usr/bin/ | grep java
 0 lrwxrwxrwx  1 root   root    22 Jul  9 03:50 java -> /etc/alternatives/java
  
@@ -40,13 +40,13 @@ $ ls -lsa /etc/alternatives/java
 
 ####1. 자바 설치
 
-{% highlight ssh %}
+{% highlight erl %}
 $ sudo apt-get install openjdk-7-jdk openjdk-7-jre
 {% endhighlight %} 
 
 ####2. 자바 alternative path 수정
 
-{% highlight ssh %}
+{% highlight erl %}
 $ sudo update-alternatives --config java
 There are 2 choices for the alternative java (providing /usr/bin/java).
  
@@ -62,7 +62,7 @@ update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
 {% endhighlight %} 
 
 
-{% highlight ssh %}
+{% highlight erl %}
 $ java -version
 java version "1.7.0_55"
 OpenJDK Runtime Environment (IcedTea 2.4.7) (7u55-2.4.7-1~deb7u1)
