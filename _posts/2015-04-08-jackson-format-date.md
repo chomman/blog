@@ -1,5 +1,5 @@
 ---
-title: `@JsonFormat`을 이용한 Jackson Date 파라미터 전달
+title: \@JsonFormat을 이용한 Jackson Date 파라미터 전달
 layout: post
 categories:
   - Java
