@@ -1,15 +1,15 @@
 ---
-title: Maven Tomcat plugin에서 Context.xml 설정
+title: @JsonFormat을 이용한 Jackson Date 파라미터 전달
 layout: post
 categories:
   - Java
-  - Maven
-  - Tomcat
+  - jackson
+  - rest
 tags:
-  - maven
-  - tomcat
-  - embedded tomcat
-  - context.xml
+  - jackson
+  - @JsonFormat
+  - Date format
+  - pattern
 ---
 
 `Jackson` 라이브러리를 사용할 때 `@RequestBody` 객체 파라미터  내에 있는 `Date`형 필드로 값을 제대로 전달하는 방법
