@@ -17,7 +17,6 @@ tags:
 #### DTO Class 
 
 {% highlight java %}
-<build> 
 ...
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd", timezon = "GMT+9")
 	private Date targetFeild;
@@ -28,7 +27,6 @@ tags:
 #### Controller Class 
 
 {% highlight java %}
-<build> 
 ...
     @InitBinder    
     public void initBinder(WebDataBinder binder){
