@@ -12,8 +12,7 @@ tags:
 
 #### eclipse.ini 파일에 다음 설정을 추가하고 재시작한다
 
-{% highlight ini %}
-<%@taglib prefix="joda" uri="http://www.joda.org/joda/time/tags" %>
+{% highlight properties %}
 ...
 -clearPersistedState
 ...
